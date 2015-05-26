@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"  rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Is it a Triangle?</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center page-header">Triangle Tracker</h1>
+
+      <form id="triangle">
+        <div class="form-group">
+          <label for="side1">Enter Side 1 of your triangle</label>
+          <input type="number" name="side1" id="side1" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="side2">Enter Side 2 of your triangle</label>
+          <input type="number" name="side2" id="side2" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="side3">Enter Side 3 of your triangle</label>
+          <input type="number" name="side3" id="side3" class="form-control">
+        </div>
+
+        <button name="submit" type="submit" class="btn btn-success">Name your triangle</button>
+      </form>
+
+      <br>
+      <div id="result">
+        <p class="lead">
+          Your triangle is <span class="type"></span> triangle.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
